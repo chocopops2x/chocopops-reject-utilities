@@ -51,7 +51,7 @@ public class BoatPhase extends Module {
             .description("Horizontal speed in blocks per second.")
             .defaultValue(10)
             .min(0)
-            .sliderMax(50)
+            .sliderMax(500)
             .build()
     );
 
@@ -60,7 +60,7 @@ public class BoatPhase extends Module {
             .description("Vertical speed in blocks per second.")
             .defaultValue(5)
             .min(0)
-            .sliderMax(20)
+            .sliderMax(200)
             .build()
     );
 
@@ -69,7 +69,7 @@ public class BoatPhase extends Module {
             .description("How fast you fall in blocks per second.")
             .defaultValue(0.625)
             .min(0)
-            .sliderMax(10)
+            .sliderMax(100)
             .build()
     );
 
