@@ -14,7 +14,7 @@ public class Boost extends Module {
             .name("strength")
             .description("Strength to yeet you with.")
             .defaultValue(4.0)
-            .sliderMax(10)
+            .sliderMax(32767)
             .build()
     );
 
